@@ -20,18 +20,18 @@
   <nav class="s-sidebar__nav">
      <ul>
         <li>
-           <a class="s-sidebar__nav-link" href="#0">
+           <a class="s-sidebar__nav-link" href="#carou">
               <i class="fa fa-home"></i><em>Home</em>
            </a>
         </li>
         <li>
-           <a class="s-sidebar__nav-link" href="#0">
-             <i class="fa fa-user"></i><em>My Profile</em>
+           <a class="s-sidebar__nav-link" href="#mesfor">
+             <i class="fa fa-user"></i><em>Mes formations</em>
            </a>
         </li>
         <li>
-           <a class="s-sidebar__nav-link" href="#0">
-              <i class="fa fa-camera"></i><em>Camera</em>
+           <a class="s-sidebar__nav-link" href="#mesexp">
+              <i class="fa fa-camera"></i><em>Mes expériences professionnelles</em>
            </a>
         </li>
      </ul>
@@ -39,7 +39,7 @@
 </div>
         
 		<main class="s-layout__content">
-			<div class="carouside">
+			<div id="carou" class="carouside">
 				<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -56,7 +56,6 @@
 										A travers de nombreux projets de groupe, j'ai pu apprendre à gérer les imprévus, résoudre les problèmes, composer avec de nombreux points de vue et manières de travailler.
 									</p>
 									<p>
-										<a class="btn btn-lg btn-primary" href="#">Sign up today</a>
 									</p>
 								</div>
 							</div>
@@ -70,7 +69,6 @@
 										Fort d'une bonne connaissance en langages web (HTML, CSS et Javascript) ainsi que dans des langages tels que Java, PHP ou encore C++, j'ai des bases solides pour la création web.
 									</p>
 									<p>
-										<a class="btn btn-lg btn-primary" href="#">Learn more</a>
 									</p>
 								</div>
 							</div>
@@ -84,7 +82,6 @@
 										J'ai voyagé à plusieurs reprise en Europe et j'ai réalisé mon stage de fin de DUT au Japon.
 									</p>
 									<p>
-										<a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
 									</p>
 								</div>
 							</div>
@@ -100,7 +97,7 @@
 					</button>
 				</div>
 				<div class="container marketing">
-                    <h4>Mes formations</h4>
+                    <h4 id="mesfor">Mes formations</h4>
 					<!-- Three columns of text below the carousel -->
 					<div class="row">
 						<div class="col-lg-4">
@@ -137,9 +134,10 @@
 						</div>
 						<!-- /.col-lg-4 -->
 					</div>
-                    
+                <hr class="featurette-divider">    
 
-<hr class="featurette-divider">
+                    <h4 id="mesexp">Mes expériences professionnelles</h4>
+
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
